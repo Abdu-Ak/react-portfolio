@@ -20,9 +20,9 @@ const Skills = ({ darkMode }) => {
            
               {skills.map((skill) => {
                 return (
-                  <div className=" flex  gap-10 ">
+                  <div className=" flex  gap-10 " key={skill.id}>
                   <SkillBox
-                    key={skill.id}
+                    
                     logo={skill.logo}
                     skill={skill.skill}
                   />

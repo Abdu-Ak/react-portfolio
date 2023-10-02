@@ -1,5 +1,5 @@
 import React from "react";
-import { FaTelegramPlane } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { RiInstagramFill } from "react-icons/ri";
 
@@ -14,16 +14,16 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1000"
 
-            href=""
+            href="https://www.linkedin.com/in/abdu-ak-45319b253/"
             className="box font-medium text-white   flex items-center justify-center flex-col"
           >
-            <FaTelegramPlane className=" text-black text-3xl hover:scale-125 cursor-pointer" />
-            <p>Telegram</p>
+            <FaLinkedinIn className=" text-black text-3xl hover:scale-125 cursor-pointer" />
+            <p>LinkedIn</p>
           </a>
           <a 
           data-aos="fade-up" data-aos-duration="1200"
 
-            href=""
+            href="https://wa.me/8590323654"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <IoLogoWhatsapp className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -32,7 +32,7 @@ const Footer = () => {
           <a 
           data-aos="fade-up" data-aos-duration="1400"
 
-            href=""
+            href="https://www.instagram.com/abd._ak_/"
             className="box font-medium text-white  flex items-center justify-center flex-col"
           >
             <RiInstagramFill className=" text-black text-3xl hover:scale-125 cursor-pointer" />
@@ -40,7 +40,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="sm:text-[12px]">
-          | Copyright &copy; <span>2023 Dev AlphaSpace </span> All rights reserved
+          | Copyright &copy; <span>2023 Abdulla </span> All rights reserved
           <a href="#"></a> |
         </div>
       </div>

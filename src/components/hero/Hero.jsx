@@ -8,7 +8,7 @@ import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import resumePDF from "../../assets/Resume.pdf";
-import mine from "../../assets/mine.jpg";
+import mine from "../../assets/me (1).png";
 import { SiGmail } from "react-icons/si";
 
 
@@ -100,9 +100,9 @@ const Hero = () => {
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0 "
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
-              // src={mine}
+              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0 color "
+              // src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              src={mine}
               alt="mine"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">

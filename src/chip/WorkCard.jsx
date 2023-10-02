@@ -1,12 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
-import { data } from "../data/data";
 import { RxExternalLink } from "react-icons/rx";
 import { AiOutlineGithub } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { Projects } from "../data/data";
+
+
+
 
 const WorkCard = () => {
-  const reversedData = [...data].reverse();
+  const reversedData = [...Projects].reverse();
 
   return (
     <>
@@ -39,7 +42,7 @@ const WorkCard = () => {
                     className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                   >
                     <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Demo</p>
+                    <p className=" text-black">Live</p>
                   </Link>
                   <br className="w-[2px] bg-white" />
                   <Link
