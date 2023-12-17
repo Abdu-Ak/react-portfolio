@@ -11,6 +11,7 @@ import promptopia from "../assets/promptopia.png";
 import netflix from "../assets/ntflix clone.png";
 import carhub from "../assets/carhub.png";
 import castle from "../assets/castle.png";
+import portfolio from "../assets/first potfolio.png";
 
 export const Projects = [
   {
@@ -48,6 +49,15 @@ export const Projects = [
     link: "https://www.castleice.online/",
     git: "https://github.com/Abdu-Ak/CastleI-ice-cream.git",
   },
+  {
+    id: 5,
+    img: portfolio,
+    title: "Portfolio Designs ",
+    desc:
+      "This is just a Portfolio Design just show off my skills and techs in Designs.",
+    link: "https://first-portfolio-pink.vercel.app/",
+    git: "https://github.com/Abdu-Ak/first-portfolio.git",
+  }
 ];
 
 export const skills = [
